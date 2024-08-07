@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "esModuleInterop": true,
+      "target": "es2021",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist"
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["./coverage", "./dist", "__tests__", "jest.config.js"],
+    "lib": ["es2021"]
+  }  
